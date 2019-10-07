@@ -7,6 +7,7 @@
         "vscode": "^1.38.0"
     },
     "icon": "images/icon.png",
+    "publisher": "darktears",
     "license": "SEE LICENSE IN LICENSE",
     "homepage": "https://github.com/darktears/vscode-c-plus-plus-theme/blob/master/README.md",
     "repository": {
