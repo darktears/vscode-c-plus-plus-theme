@@ -1,0 +1,28 @@
+{
+    "name": "dark-c-plus-plus-theme",
+    "displayName": "Dark C++ Theme",
+    "description": "This is a dark theme mostly made for C++ editing. It has enhanced coloration thanks to Better C++ Syntax extension.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "icon": "images/icon.png",
+    "license": "SEE LICENSE IN LICENSE",
+    "homepage": "https://github.com/darktears/vscode-c-plus-plus-theme/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/darktears/vscode-c-plus-plus-theme.git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark C++ Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark C++ Theme-color-theme.json"
+            }
+        ]
+    }
+}
