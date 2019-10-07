@@ -7,7 +7,7 @@ https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax
 
 Here is a little preview :
 
-![Preview](https://github.com/darktears/vscode-c-plus-plus-theme/raw/master/images/preview.png)
+![Preview](https://github.com/darktears/vscode-c-plus-plus-theme/raw/master/images/preview.JPG)
 
 
 I welcome feedback as well as PRs to fix the theme both for C++ or for other languages.
