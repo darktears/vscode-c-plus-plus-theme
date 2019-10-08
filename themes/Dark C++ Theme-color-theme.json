@@ -1,26 +1,28 @@
 {
-	"name": "Dark C++ Theme",
-	"type": "dark",
-	"colors": {
-		"editor.background": "#1E201A",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb",
-		"statusBar.background": "#791515",
-		"statusBar.foreground": "#f2f3f5",
-	},
-	"tokenColors": [
-		{
-			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"foreground": "#808080"
-			}
-		},
-		{
+  "name": "Dark C++ Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1E201A",
+    "editor.foreground": "#eeffff",
+    "editorError.foreground": "#b8082eaf",
+    "editorWarning.foreground": "#ff8800af",
+    "activityBarBadge.background": "#007acc",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "statusBar.background": "#791515",
+    "statusBar.foreground": "#f2f3f5",
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
       "name": "String",
       "scope": [
         "string",
@@ -30,23 +32,23 @@
         "foreground": "#e44038"
       }
     },
-		{
-			"name": "Colors",
-			"scope": [
-				"constant.other.color"
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
+    {
+      "name": "Colors",
+      "scope": [
+        "constant.other.color"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#D85FA7"
       }
-		},
-		{
+    },
+    {
       "name": "Other variables",
       "scope": [
         "constant.other"
@@ -55,51 +57,51 @@
         "foreground": "#56b6c2"
       }
     },
-		{
-			"name": "Invalid",
-			"scope": [
-				"invalid",
-				"invalid.illegal"
-			],
-			"settings": {
-				"foreground": "#FF5370"
-			}
-		},
-		{
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#FF5370"
+      }
+    },
+    {
       "name": "Language variables, keywords, storage types.",
-			"scope": [
-				"variable.language",
-				"keyword",
+      "scope": [
+        "variable.language",
+        "keyword",
         "variable.language.this",
         "variable.language.self",
         "variable.language.super",
         "storage.type",
         "storage.modifier",
         "keyword.operator.new",
-				"keyword.operator.delete",
-				"constant.language",
-			],
+        "keyword.operator.delete",
+        "constant.language",
+      ],
       "settings": {
         "foreground": "#f32973"
       }
-		},
-		{
+    },
+    {
       "name": "Pointers, References and operators",
       "scope": [
         "storage.modifier.pointer",
-				"storage.modifier.reference",
-				"storage.modifier.dereference",
-				"keyword.operator",
-				"keyword.operator.assignment",
-				"punctuation.separator.namespace.access",
-				"punctuation.separator.pointer-access",
-				"variable.other.object.access",
+        "storage.modifier.reference",
+        "storage.modifier.dereference",
+        "keyword.operator",
+        "keyword.operator.assignment",
+        "punctuation.separator.namespace.access",
+        "punctuation.separator.pointer-access",
+        "variable.other.object.access",
       ],
       "settings": {
         "foreground": "#E6E5E2"
       }
-		},
-		{
+    },
+    {
       "name": "Macro",
       "scope": [
         "variable.other.macro",
@@ -112,7 +114,7 @@
         "foreground": "#AE81FF"
       }
     },
-		{
+    {
       "name": "Class",
       "scope": [
         "entity.name.class",
@@ -124,8 +126,8 @@
       "settings": {
         "foreground": "#e9c70a"
       }
-		},
-		{
+    },
+    {
       "name": "Other variables and scope variables",
       "scope": [
         "variable.other",
@@ -134,8 +136,8 @@
       "settings": {
         "foreground": "#20a1b3"
       }
-		},
-		{
+    },
+    {
       "name": "Object Member variable",
       "scope": [
         "variable.other.property",
@@ -143,8 +145,8 @@
       "settings": {
         "foreground": "#2EB436"
       }
-		},
-		{
+    },
+    {
       "name": "Function argument",
       "scope": [
         "variable.parameter",
@@ -155,7 +157,7 @@
         "foreground": "#408080"
       }
     },
-		{
+    {
       "name": "Function name",
       "scope": [
         "entity.name.function"
@@ -163,15 +165,15 @@
       "settings": {
         "foreground": "#d37d04"
       }
-		},
-		{
+    },
+    {
       "name": "Namespaces",
       "scope": "entity.name.namespace",
       "settings": {
         "foreground": "#ced128"
       }
-		},
-		{
+    },
+    {
       "name": "Inherited Class",
       "scope": [
         "entity.other.inherited-class"
@@ -179,20 +181,20 @@
       "settings": {
         "foreground": "#FF6D90"
       }
-		},
-		{
+    },
+    {
       "name": "Builtin Functions, Enum and attribute",
       "scope": [
         "function.support.builtin",
         "function.support.core",
-				"variable.other.enummember",
-				"entity.other.attribute-name",
+        "variable.other.enummember",
+        "entity.other.attribute-name",
       ],
       "settings": {
         "foreground": "#98c379"
       }
     },
-		{
+    {
       "name": "JSON String",
       "scope": "support.type.property-name.json",
       "settings": {
@@ -328,8 +330,8 @@
         "fontStyle": "bold",
         "foreground": "#ffffff"
       }
-		},
-		{
+    },
+    {
       "name": "Json Property",
       "scope": "support.dictionary.json",
       "settings": {
@@ -424,5 +426,5 @@
         "foreground": "#56b6c2"
       }
     },
-	]
+  ]
 }
