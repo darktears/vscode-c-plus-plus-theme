@@ -80,6 +80,7 @@
         "keyword.operator.new",
         "keyword.operator.delete",
         "constant.language",
+        "keyword.operator.cast",
       ],
       "settings": {
         "foreground": "#f32973"
