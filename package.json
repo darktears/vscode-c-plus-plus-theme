@@ -2,7 +2,7 @@
     "name": "dark-c-plus-plus-theme",
     "displayName": "Dark C++ Theme",
     "description": "This is a dark theme mostly made for C++ editing. It has enhanced coloration thanks to Better C++ Syntax extension.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.38.0"
     },
