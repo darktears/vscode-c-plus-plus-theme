@@ -33,17 +33,11 @@
       }
     },
     {
-      "name": "Colors",
+      "name": "Number",
       "scope": [
+        "constant.numeric",
         "constant.other.color"
       ],
-      "settings": {
-        "foreground": "#ffffff"
-      }
-    },
-    {
-      "name": "Number",
-      "scope": "constant.numeric",
       "settings": {
         "foreground": "#D85FA7"
       }
@@ -177,7 +171,8 @@
     {
       "name": "Inherited Class",
       "scope": [
-        "entity.other.inherited-class"
+        "entity.other.inherited-class",
+        "storage.modifier.virtual",
       ],
       "settings": {
         "foreground": "#FF6D90"
@@ -348,7 +343,7 @@
         "support.type.property-name.sass"
       ],
       "settings": {
-        "foreground": "#063388"
+        "foreground": "#56b6c2"
       }
     },
     {
@@ -364,7 +359,7 @@
         "entity.other.attribute-name.pseudo-element.sass"
       ],
       "settings": {
-        "foreground": "#56b6c2"
+        "foreground": "#54a5a5"
       }
     },
     {
@@ -373,10 +368,11 @@
         "support.constant.css",
         "support.constant.scss",
         "support.constant.less",
-        "support.constant.sass"
+        "support.constant.sass",
+        "source.css support.constant",
       ],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#d47035"
       }
     },
     {
@@ -425,6 +421,27 @@
       ],
       "settings": {
         "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "HTML tags",
+      "scope": [
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+      ],
+      "settings": {
+        "foreground": "#729dfa"
+      }
+    },
+    {
+      "name": "Tag Name",
+      "scope": [
+        "entity.name.tag",
+        "entity.name.tag.class.js"
+      ],
+      "settings": {
+        "foreground": "#287ddd"
       }
     },
   ]
